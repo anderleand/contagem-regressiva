@@ -1,0 +1,134 @@
+/*
+==============================
+Fonts
+==============================
+*/
+@import url('https://fonts.googleapis.com/css2?family=Rochester&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+/*
+==============================
+Variables
+==============================
+*/
+
+:root{
+  --clr-test-1:#73464E;
+  --clr-test-2:#BF8FA6;
+  --clr-test-3:#BF8975;
+  --clr-test-3:#F2E2DF;
+
+  --clr-primary:#F2E2DF;
+  --clr-secundary:#BF8FA6;
+
+  --clr-font-primary:#73464E;
+  --clr-font-secundary:#BF8975;
+
+  --radius:1rem;
+
+  --ff-primary:"Rochester", sans-serif;
+  --ff-secundary: 'Orbitron', sans-serif;
+
+}
+
+body{
+  background-color: var(--clr-primary);
+  font-family: sans-serif;
+  color:var(--clr-font-secundary)
+  
+}
+
+h1{
+  font-family: var(--ff-primary);
+  text-align: center;
+  color:var(--clr-font-primary);
+  
+}
+
+h1 {
+  font-size: 4rem;
+}
+h2 {
+  font-size: 2rem;
+}
+h3 {
+  font-size: 1.25rem;
+}
+
+p {
+  margin-bottom: 1.25rem;
+  text-align: justify;
+}
+span{
+  font-family: sans-serif;
+  text-transform: initial;
+}
+
+.section-center{
+  display: flex;
+  height: 400px;
+  width: 1200px;
+  align-items: center;
+  margin:2rem;
+  padding: 5rem;
+}
+
+.giveaway{
+  text-align: center;
+}
+
+.gift-image{
+  background-image: url("baby.jpg");
+  background-position: center;
+  background-size: cover;
+
+  box-sizing: border-box;
+  height: 100%;
+  width: 100%;
+  margin-right:2rem;
+  border-radius: var(--radius);
+}
+
+.gift-info{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  box-sizing: border-box;
+  height: 100%;
+  width: 100%;
+  padding: 0 1rem;
+}
+
+.deadline{
+  display: flex;
+  justify-content: space-between;
+}
+
+.deadline-format{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  background-color: var(--clr-secundary);
+  box-sizing: border-box;
+  color: var(--clr-font-primary);
+  text-align: center;
+  align-items:center;
+  width: 7rem;
+  height: 7rem;
+  margin: 0 1rem;
+  padding: 2rem;
+  border-radius: var(--radius);
+}
+
+.numbers{
+  font-family: var(--ff-secundary);
+  font-size: 1.2rem;
+}
+
+.deadline-format:nth-child(1){
+  margin-left: 0;
+}
+.deadline-format:nth-child(4){
+  margin-right: 0;
+}
