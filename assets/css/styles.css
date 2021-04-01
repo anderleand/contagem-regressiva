@@ -77,7 +77,7 @@ span{
 }
 
 .gift-image{
-  background-image: url("baby.jpg");
+  background-image: url("../img/baby.jpg");
   background-position: center;
   background-size: cover;
 
