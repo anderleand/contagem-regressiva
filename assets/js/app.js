@@ -38,7 +38,7 @@ const hours = futureDate.getHours();
 const minutes = futureDate.getUTCMinutes();
 //console.log(`${weekday}, ${date} ${month} de ${year} às ${hours}:${minutes}`);
 
-giveaway.textContent = `Chegada prevista ${weekday}, ${date} ${month} de ${year}`;
+giveaway.textContent = `Chegada prevista para ${weekday}, ${date} ${month} de ${year}`;
 //future time in ms
 const futureTime = futureDate.getTime();
 //console.log(futureTime)
