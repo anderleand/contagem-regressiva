@@ -26,7 +26,7 @@ const giveaway = document.querySelector('.giveaway');
 const deadline = document.querySelector('.deadline');
 const items = document.querySelectorAll('.deadline-format h4')
 //console.log(items)
-let futureDate = new Date(2021, 6, 27, 0, 00, 0);
+let futureDate = new Date(2021, 7, 07, 0, 00, 0);
 //let futureDate = new Date(2021, 2, 31, 23, 29, 0);
 //console.log(futureDate);
 
